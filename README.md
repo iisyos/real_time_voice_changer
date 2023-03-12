@@ -1,18 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# real_time_voice_changer
+Convert your originally voice in 「ひろゆき」 voice real-timely by using [おしゃべりひろゆきメーカー](https://hiroyuki.coefont.cloud/hiroyuki).
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# How to Use
+This application run on your locally machine.
 
-## Recommended IDE Setup
+1. Clone this repo.
+2. Install front-end module `npm i`
+3. Run it `npm run dev`
+4. Run back-end application by hitting `cd api && docker-compsoe up --build`
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Examples of Use
 
-## Type Support For `.vue` Imports in TS
+- When you attending casual meeting, using this app to confuse attendees.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+# Acknowledgments
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+This application inspired by https://github.com/tsukumijima/TarakoTalk .
+Thanks.
